@@ -31,9 +31,60 @@ INSERT INTO [dbo].[Export]
            ,[ExportUserName]
            ,[ExportLocalName])
      VALUES
-           ('Export 112'
-           ,'2016-09-13 01:00:00'
-           ,'test4'
-           ,'test3 local')
+           ('Export 1'
+           ,'2016-09-13 11:00:00'
+           ,'AnnaK'
+           ,'Test Local')
+GO
+INSERT INTO [dbo].[Export]
+           ([ExportName]
+           ,[ExportDateTime]
+           ,[ExportUserName]
+           ,[ExportLocalName])
+     VALUES
+           ('Export 2'
+           ,'2014-09-13 12:00:00'
+           ,'AnnaK'
+           ,'2 local')
+GO
+INSERT INTO [dbo].[Export]
+           ([ExportName]
+           ,[ExportDateTime]
+           ,[ExportUserName]
+           ,[ExportLocalName])
+     VALUES
+           ('Export 3'
+           ,'2020-01-13 01:00:00'
+           ,'JarekP'
+           ,'3 local')
+GO
+INSERT INTO [dbo].[Export]
+           ([ExportName]
+           ,[ExportDateTime]
+           ,[ExportUserName]
+           ,[ExportLocalName])
+     VALUES
+           ('Export 4'
+           ,'2011-05-13 04:00:00'
+           ,'testowy'
+           ,'4 local')
+GO
+INSERT INTO [dbo].[Export]
+           ([ExportName]
+           ,[ExportDateTime]
+           ,[ExportUserName]
+           ,[ExportLocalName])
+     VALUES
+           ('Export 5'
+           ,'2011-05-13 11:00:00'
+           ,'JarekP'
+           ,'7 local')
+GO
+
+
+
+
+
+
 
 
